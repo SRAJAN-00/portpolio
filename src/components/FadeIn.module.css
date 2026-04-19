@@ -1,0 +1,11 @@
+.fadeIn {
+  opacity: 0;
+  transform: translateY(18px); /* Soft 18px slide */
+  transition: opacity 0.85s cubic-bezier(0.25, 1, 0.5, 1), transform 0.85s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: opacity, transform;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
